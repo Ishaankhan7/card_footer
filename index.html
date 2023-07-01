@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <style>
+        body {
+            background-color: black;
+
+        }
+
+        #div01 {
+            display: flex;
+            justify-content: space-between;
+            height: 10vh;
+        }
+
+        #div02 {
+            color: white;
+        }
+
+        #link {
+            /* align-items: flex-end; */
+            margin-top: 0.5rem;
+            margin-right: 0.8rem;
+            height: 10vh;
+        }
+
+        #link a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: white;
+            height: 10vh;
+
+        }
+
+        #line {
+            border: 5px solid grey;
+            border-style: outset;
+        }
+
+        #div03 {
+            height: 110vh;
+            display: grid;
+            width: 1000px;
+            margin-left: auto;
+            margin-top: 1rem;
+            margin-right: auto;
+            
+
+        }
+
+        .item {
+            background-color: white;
+            border: 21px white;
+            border-radius: 1.1%;
+            margin: 15px;
+            box-shadow: 3px 3px 3px white;
+            
+
+        }
+
+        #item03 {
+            grid-column: span 2;
+        }
+
+        #heading {
+            color: white;
+        }
+
+        #details a {
+            color: white;
+            text-decoration: none;
+        }
+
+        #image img {
+            width: 50px;
+            height: 15vh;
+        }
+
+        .icon a {
+            text-decoration: none;
+
+        }
+
+        #data {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        #line {
+            border: 5px solid grey;
+            border-style: outset;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div id="div01">
+            <div id="div02">
+                <h1>TRAVEL  GOALS</h1>
+            </div>
+            <div id="link">
+                <a href="">Destination</a>
+                <a href="">About</a>
+            </div>
+        </div>
+    </header>
+    <hr id="line">
+    <div id="div03">
+        <div class="item">
+            <img src="seoul.jpeg" alt=""  height="250px" width="460px" style="margin-top: 3px;border-radius: 1%;"> <h3 style="text-align: center;margin-top: 3px;">Seoul</h3>
+            <p style="text-align: center;">Seoul,officially seoul is the special city,is the capital and largest metropolis of south korea. seoul was one of the host cities for the official tournament of the 2002 FIFA world cup.which was co-hosted by south korea and japan.</p>
+            <a href="" style="text-decoration: none;margin-left: 23rem;">Explore more</a>  
+        </div>
+        <div class="item">
+            <img src="bali.jpeg" alt="" height="250px" width="460px" style="margin-top: 3px;border-radius: 1%;">
+            <h3 style="text-align: center;margin-top: 3px;">Bali</h3>
+            <p>Bali is the provience of indonesia and the westernmost of the lesser sunda islands.east of java and west of lombok,the provience include the island of bali and few smaller neighbouring islands,notbly nusa penida,nusa lmbongan,and nusa caningan.</p>
+            <a href="" style="text-decoration: none;margin-left: 23rem;">Explore more</a>
+        </div>
+        <div class="item" id="item03">
+            <img src="travel.jpeg" alt=""  height="300px" width="500px"><img src="tt.jpeg" alt="" height="300px" width="450px">
+        </div>
+    </div>
+    <hr id="line">
+    <footer>
+        <div id="data">
+            <div id="details">
+                <h3 id="heading">Contact info</h3>
+                <ul>
+                    <li><a href="">company</a></li><br>
+                    <li><a href="">about</a></li><br>
+                    <li><a href="">jobs</a></li><br>
+                    <li><a href="">for the record</a></li>
+                </ul>
+            </div>
+            <div id="details">
+                <h3 id="heading">for the artist</h3>
+                <ul>
+                    <li><a href="">developer</a></li><br>
+                    <li><a href="">adverting</a></li><br>
+                    <li><a href="">ueful links</a></li>
+                </ul>
+            </div>
+            <div id="image" class="icon">
+                <a href=""><img src="facebook-svgrepo-com.svg" alt=""></a>
+                <a href=""><img src="twitter-svgrepo-com.svg" alt=""></a>
+                <a href=""><img src="instagram-1-svgrepo-com.svg" alt=""></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
